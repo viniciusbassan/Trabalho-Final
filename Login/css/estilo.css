@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    z-index: 100;
+}
+body{
+    background-image: url(../img/games.png)}
+.logo{
+    width: 120px;
+    display: block;
+    float: left;
+}
+.menu-topo{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center; 
+    width: fit-content;        
+ }
+ ul{
+    list-style: none;
+ }
+ .a .b{
+     position: relative;
+     float: left;
+     margin-right: -1px;
+ }
+ .a .b a{
+     display: block;
+     text-decoration: none;
+     color: black;
+     padding: 5px;
+     border-bottom: 0;
+     width: 150px;
+     background-color: white;
+     border-bottom: 1px solid #35013F;
+ }
+ .a .b .c{
+     display: none;
+     position: absolute;
+ }
+ .a .b:hover .c{
+     width: 150px;
+     display: block; 
+ }
+ .container{
+    max-width: 960px;
+    margin: auto;
+}
+
+fieldset{
+    font-weight: 100;
+    margin-bottom: 30px;
+    background-color: #561050; 
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+	position: absolute;
+    width: 1px;
+    padding: 0;
+    top: 200px;
+    left: 550px;
+}
+form{
+    font: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+label{
+    font-weight: 800;
+    margin-left: 15px;
+}
+.user, .senha{
+    padding: 20px;
+}
+input, textarea, select{
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+.botom{
+    left: 30px;
+    text-align: center;
+}
+ .texto-footer{
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+ footer{
+    background:white;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ }
