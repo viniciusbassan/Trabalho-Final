@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daera</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    
+</head>
+<body class="bodyregistro">
+	<header>
+    <img class="logo" src="../img/logo.png" alt="">
+	
+        <script src="https://kit.fontawesome.com/6d2d9765c7.js" crossorigin="anonymous"></script>
+		<div class="menu-topo">
+		<ul class="a"> 
+			<li class="b"><a href="../index.html">Home</a></li> 
+			<li class="b"><a href="#">Redes Sociais</a> 
+			  <ul class="c"> 
+                <li><a href="https://www.google.com/intl/pt-BR/gmail/about/" target="_blank">E-mail</a></li>
+				<li><a href="https://pt-br.facebook.com/" target="_blank">Facebook</a></li> 
+				<li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li> 
+				<li><a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">WhatsApp</a></li>  
+			  </ul> 
+			</li> 
+			<li class="b"><a href="#">Sobre</a> 
+			  <ul class="c"> 
+                <li><a href="#">A Loja</a></li> 
+				<li><a href="../Páginas Sobre/Endereço.html">Endereço</a></li> 
+			  </ul> 
+			</li>
+			<li class="b"><a href="#">Usuário</a> 
+			  <ul class="c">
+                <li><a href="Login.html">Login</a></li>  
+				<li><a href="Registro.html">Registro</a></li> 
+			  </ul>
+			</li> 
+		  </ul>
+		</div>
+		</header>
+		<div class="containerregistro">
+			<div class="form-title">
+				<h2>Registro de Usuário</h2>
+			</div>
+			<div>
+				<form action="dados.php" method="post">
+	
+					<fieldset>
+						<legend>Dados Pessoais</legend>
+						
+						<div class="nome">
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" placeholder="EX:Pedro" required>
+						</div>
+	
+						<div class="sobrenome">
+						<label for="sobrenome">Sobrenome</label>
+						<input type="text" name="sobrenome" placeholder="EX:Silva" required>
+						</div>
+
+						<div class="nascimento">
+						<label for="nascimento">Data de Nascimento</label>
+						<input class="data" type="date" name="nascimeto" required>
+						</div>
+	
+						<div class="email">
+						<label for="email">E-mail</label>
+						<input type="email" name="email" placeholder="EX:email@emaail.com" required>
+						</div>
+	
+						<div class="cpf">
+						<label  for="cpf">CPF</label>
+						<input  type="text" name="cpf" placeholder="EX:000.000.000-00" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" required>
+						</div>
+							
+						<div class="telefone">
+						<label for="telefone">Telefone</label>
+						<input type="tel" name="telefone" placeholder="EX:(55) 12345-6789" pattern="([0-9]{2})[0-9]{5}-[0-9]{4}" required>
+						</div>
+						
+					</fieldset>
+	
+					<fieldset>
+						<legend>Endereço</legend>
+						
+						<label for="cep">CEP</label>
+						<input type="text" name="cep" id="" placeholder="EX:00000-000" required>
+	
+						<label for="complemento">Complemento</label>
+						<input type="text" name="complemento" id="" required>
+	
+						<label for="numero">Numero</label>
+						<input type="text" name="numero" id="" required>
+	
+						<label for="bairro">Bairro</label>
+						<input type="text" name="bairro" id="" required>
+			
+						<label for="cidade">Cidade</label>
+						<input type="text" name="cidade" required>
+						
+						<div class="estado">
+						<label for="estado">Estado</label>
+						<select name="estados" id="" required>
+							<option value="AC">Acre</option>
+							<option value="AL">Alagoas</option>
+							<option value="AP">Amapá</option>
+							<option value="AM">Amazonas</option>
+							<option value="BA">Bahia</option>
+							<option value="CE">Ceará</option>
+							<option value="DF">Distrito Federal</option>
+							<option value="ES">Espírito Santo</option>
+							<option value="GO">Goiás</option>
+							<option value="MA">Maranhão</option>
+							<option value="MT">Mato Grosso</option>
+							<option value="MS">Mato Grosso do Sul</option>
+							<option value="MG">Minas Gerais</option>
+							<option value="PA">Pará</option>
+							<option value="PB">Paraíba</option>
+							<option value="PR">Paraná</option>
+							<option value="PE">Pernambuco</option>
+							<option value="PI">Piauí</option>
+							<option value="RJ">Rio de Janeiro</option>
+							<option value="RN">Rio Grande do Norte</option>
+							<option value="RS">Rio Grande do Sul</option>
+							<option value="RO">Rondônia</option>
+							<option value="RR">Roraima</option>
+							<option value="SC">Santa Catarina</option>
+							<option value="SP">São Paulo</option>
+							<option value="SE">Sergipe</option>
+							<option value="TO">Tocantins</option>
+						</select>
+					    </div>
+	
+					</fieldset>
+	
+					<fieldset>
+						<legend>Observações</legend>
+						<textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+						<h3>Como você nos conheceu?</h3>
+						<ul class="redes">
+							<li><input class="checkbox" type="checkbox" name="redes" id="">Facebook</li>
+							<li><input class="checkbox" type="checkbox" name="redes" id="">WhatsApp</li>
+							<li><input class="checkbox" type="checkbox" name="redes" id="">Internet</li>
+							<li><input class="checkbox" type="checkbox" name="redes" id="">Outros</li>
+						</ul>
+					</fieldset>
+	
+					<input class="enviar" type="submit" value="Enviar">
+					<input type="reset">
+	
+	
+				</form>
+			
+			</div>
+		</div>
+
+		  
+	</body>
+	<footer>
+		<div class="texto-footer">
+		<p>Site em Beta</p>
+		</div>
+	</footer>
+</html>
