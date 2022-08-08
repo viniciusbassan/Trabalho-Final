@@ -292,3 +292,40 @@ footer{
     bottom: 0;
     left: 0;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    main{
+        margin: 0 auto;
+        width: 600px;
+    }
+    .menu-lat ul {
+        display: flex;
+        position: relative;
+        width: 50px;
+        /* left: 5%;
+        top: 8px;
+        font-size: 20pt; */
+    }
+    ul li a{
+        color: white;
+        padding: 10px;
+        border-bottom: 0;
+        width: 50px;
+        border-bottom: 1px solid #35013F;
+     }
+     .categoria {
+        color: white;
+        padding: 100px;
+        text-align: center;
+        top: 300px;
+    }
+     .games {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin-top: 100px;
+    }
+}
