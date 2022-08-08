@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
 }
 header{
     width: 100%;
@@ -262,7 +263,7 @@ li{
 .videogod{
     top: 300px;
     left: 630px;
-    position: absolute;
+    position: fixed;
 }
 
 
@@ -298,6 +299,9 @@ footer{
 @media only screen and (max-width: 600px) {
     main{
         margin: 0 auto;
+        width: 100%;
+    }
+    article{
         width: 600px;
     }
     .menu-lat ul {
@@ -351,4 +355,37 @@ footer{
     .menu-topo .a .b a:hover{
         background-color: #087908;
     }
+    .bodygod{
+        background-size: 600px;
+        background-image: url(../img/fundogod.png);
+        background-repeat: no-repeat;
+    }
+    .imganuncio{
+        width: 450px;
+        height:450px;
+        padding: 90px;
+        
+    }
+    
+    .inf{
+        padding: 600px;
+        top: 600px;
+        width: 400px;
+    }
+    .nomejogo{
+        left: 0;
+        text-align: center;
+    }
+    .descrição{
+      left: 0;
+
+      
+    }
+    .videogod{
+        position: absolute;
+        left: 5px;
+        top: 600px;
+          
+    }
+        
 }
