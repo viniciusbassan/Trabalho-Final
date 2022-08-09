@@ -350,7 +350,7 @@ footer{
         height: 200px;
     }
     .bodygod{
-        background-size: 600px;
+        background-size: 500px;
         background-image: url(../img/fundogod.png);
         background-repeat: no-repeat;
     }
@@ -358,14 +358,16 @@ footer{
         position: absolute;
         top: 400px;
         padding: 0;
-        left: 60px;        
+        left: 60px; 
+        width: 300px;
+        height: 300px;       
     }
     .nomejogo{
-        top: 230px;
+        top: 200px;
         left: 5px;
     }
     .descrição{
-      top: 850px;
+      top: 750px;
       color: white;
       left: 5px;
 
@@ -374,7 +376,6 @@ footer{
     .videogod{
         position: absolute;
         left: 5px;
-        width: 400px;
         top: 950px;
           
     }
