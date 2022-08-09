@@ -361,31 +361,31 @@ footer{
         background-repeat: no-repeat;
     }
     .imganuncio{
-        width: 450px;
-        height:450px;
-        padding: 90px;
-        
-    }
-    
-    .inf{
-        padding: 600px;
-        top: 600px;
-        width: 400px;
+        position: absolute;
+        top: 400px;
+        padding: 0;
+        left: 60px;        
     }
     .nomejogo{
-        left: 0;
+        top: 230px;
+        left: 5px;
         text-align: center;
     }
     .descrição{
-      left: 0;
+      top: 850px;
+      color: white;
+      left: 5px;
 
       
     }
     .videogod{
         position: absolute;
         left: 5px;
-        top: 600px;
+        width: 400px;
+        top: 950px;
           
     }
-        
+    footer{
+        z-index: 1;
+    }
 }
