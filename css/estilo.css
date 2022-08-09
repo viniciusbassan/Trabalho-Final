@@ -300,13 +300,9 @@ footer{
         margin: 0 auto;
         width: 100%;
     }
-    article{
-        width: 600px;
-    }
     .menu-lat ul {
         display: flex;
-        position: static;
-        width: 50px;
+        position: relative;
         
     }
     .menu-lat ul li a{
@@ -315,15 +311,13 @@ footer{
         font-size: 10pt;
         padding: 10px;
         border-bottom: 0;
-        width: 50px;
+        width: 20px;
         border-bottom: 1px solid black;
         border-left: 1px solid black;
      }
      h1 {
         color: white;
-        padding: 120px;
-        text-align: center;
-    
+        padding: 120px;    
     }
      .games {
         position: absolute;
@@ -332,9 +326,6 @@ footer{
         flex-wrap: wrap;
         /* padding: 10px; */
         /* margin-top: 100px; */
-    }
-    header{
-        width: 600px;
     }
     .menu-topo{
         margin: 0 auto;
@@ -353,6 +344,10 @@ footer{
     }
     .menu-topo .a .b a:hover{
         background-color: #087908;
+    }
+    .games .jogo{
+        width: 150px;
+        height: 200px;
     }
     .bodygod{
         background-size: 600px;
