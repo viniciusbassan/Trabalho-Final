@@ -74,7 +74,6 @@ body{
 .categoria {
     color: white;
     padding: 100px;
-    text-align: center;
 }
 .games {
     position: relative;
@@ -369,7 +368,6 @@ footer{
     .nomejogo{
         top: 230px;
         left: 5px;
-        text-align: center;
     }
     .descrição{
       top: 850px;
