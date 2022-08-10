@@ -307,25 +307,27 @@ footer{
     }
     .menu-lat ul li a{
         color: white;
-        text-align: center;
-        font-size: 10pt;
+        text-align: left;
+        font-size: 8pt;
         padding: 10px;
         border-bottom: 0;
-        width: 20px;
+        width: 40px;
         border-bottom: 1px solid black;
         border-left: 1px solid black;
      }
-     h1 {
+     .Produtos h1 {
         color: white;
-        padding: 120px;    
+        position: absolute;
+        top: 150px;
+        left: 50px;
     }
      .games {
         position: absolute;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        /* padding: 10px; */
-        /* margin-top: 100px; */
+        padding: 20px;
+        top: 200px;
     }
     .menu-topo{
         margin: 0 auto;
@@ -350,7 +352,7 @@ footer{
         height: 200px;
     }
     .bodygod{
-        background-size: 500px;
+        background-size: 600px;
         background-image: url(../img/fundogod.png);
         background-repeat: no-repeat;
     }
@@ -363,8 +365,8 @@ footer{
         height: 300px;       
     }
     .nomejogo{
-        top: 200px;
-        left: 5px;
+        top: 350px;
+        left: 50px;
     }
     .descrição{
       top: 750px;
@@ -379,7 +381,45 @@ footer{
         top: 950px;
           
     }
-    footer{
-        z-index: 1;
+    .pgendereço{
+        margin-top: 150px;
+        top: 400px;
+        margin: 0 auto;
+        width: 300px;
+        height: 480px;
+        padding: 50px;
+        background-color: gray;
     }
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    
+    .map-responsive iframe{
+        width: 320px;
+        height: 280px;
+    
+    }
+    .UFSM{
+        left: 5px;
+        top: 300px;
+        position: absolute;
+        color: green;
+    }
+    .add1{
+        left: 5px;
+        top: 400px;
+        position: absolute;
+        color: white;
+    }
+    .add2{
+        left: 5px;
+        top: 450px;
+        position: absolute;
+        color: white;
+    }
+    
+  
 }
