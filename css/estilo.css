@@ -75,12 +75,18 @@ body{
     color: white;
     padding: 100px;
 }
+.Produtos h1 {
+    color: white;
+    position: absolute;
+    left: 30%;
+    padding: 100px;
+}
 .games {
     position: relative;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 150px;
 }
 
 .games .jogo{
@@ -308,10 +314,10 @@ footer{
     .menu-lat ul li a{
         color: white;
         text-align: left;
-        font-size: 8pt;
-        padding: 10px;
+        font-size: 7pt;
+        padding: 5px;
         border-bottom: 0;
-        width: 40px;
+        width: 36px;
         border-bottom: 1px solid black;
         border-left: 1px solid black;
      }
@@ -320,6 +326,7 @@ footer{
         position: absolute;
         top: 150px;
         left: 50px;
+        padding: 0;
     }
      .games {
         position: absolute;
@@ -328,6 +335,7 @@ footer{
         flex-wrap: wrap;
         padding: 20px;
         top: 200px;
+        padding-bottom: 100px;
     }
     .menu-topo{
         margin: 0 auto;
@@ -388,38 +396,39 @@ footer{
         width: 300px;
         height: 480px;
         padding: 50px;
-        background-color: gray;
     }
     .map-responsive{
         overflow:hidden;
-        padding-bottom:56.25%;
-        position:relative;
-        height:0;
+        position: static;
+        height: 250px;
+        width: 380px;
     }
     
     .map-responsive iframe{
-        width: 320px;
-        height: 280px;
+        float: right;
     
     }
     .UFSM{
         left: 5px;
-        top: 300px;
+        top: 500px;
         position: absolute;
-        color: green;
+        color: white;
     }
     .add1{
         left: 5px;
-        top: 400px;
+        top: 550px;
         position: absolute;
         color: white;
     }
     .add2{
         left: 5px;
-        top: 450px;
+        top: 650px;
         position: absolute;
         color: white;
     }
+    .containerlogin{
+        left: 0;
+    }
+
     
-  
 }
