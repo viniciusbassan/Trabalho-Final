@@ -427,8 +427,13 @@ footer{
         color: white;
     }
     .containerlogin{
-        left: 0;
+        width: 300px;
+        padding: 120px;
+        left: 20px;
     }
-
+    .fieldsetlogin{
+        left: 50px;
+        position: fixed;
+    }
     
 }
