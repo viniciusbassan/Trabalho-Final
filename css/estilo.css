@@ -408,6 +408,13 @@ footer{
         float: right;
     
     }
+    .add{
+        top: 400px;
+        margin: 0 auto;
+        width: 300px;
+        height: 200px;
+        padding: 50px;
+    }
     .UFSM{
         left: 5px;
         top: 500px;
@@ -416,13 +423,13 @@ footer{
     }
     .add1{
         left: 5px;
-        top: 550px;
+        top: 560px;
         position: absolute;
         color: white;
     }
     .add2{
         left: 5px;
-        top: 650px;
+        top: 600px;
         position: absolute;
         color: white;
     }
