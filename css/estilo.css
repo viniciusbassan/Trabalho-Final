@@ -435,5 +435,7 @@ footer{
         left: 50px;
         position: fixed;
     }
-    
+    form{
+        margin: 0 auto;
+    }
 }
